@@ -29,9 +29,14 @@ RPM.
 
 %package BOOT
 Summary:	prowizorka for bootdisk
+Summary(pl):	prowizorka dla dysku startowego
 Group:		Applications/System
 
 %description BOOT
+prowizorka version for bootdisk.
+
+%description BOOT -l pl
+Wersja prowizorki przeznaczona dla dysku startowego.
 
 %prep
 %setup -q -n %{name}
