@@ -18,8 +18,6 @@ BuildRequires:	rpm-devel
 #BuildRequires:	trurlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_sysconfdir	/etc
-
 %description
 prowizorka is a tool to allow easy installation of RPM packages.
 
