@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 prowizorka is a tool to allow easy installation of RPM packages.
 
 %description -l pl
-prowizorka jest narzêdziem które pozwala na ³atw± instalacjê
-pakietów RPM.
+prowizorka jest narzêdziem które pozwala na ³atw± instalacjê pakietów
+RPM.
 
 %package BOOT
 Summary:	prowizorka for bootdisk
@@ -48,7 +48,7 @@ install gentocf/gentocf $RPM_BUILD_ROOT%{_libdir}/bootdisk/sbin
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files 
+%files
 %defattr(644,root,root,755)
 
 %files BOOT
