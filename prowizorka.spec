@@ -5,8 +5,6 @@ Version:	0.1
 Release:	1
 License:	GPL
 Group:		Applications/System
-Group(de):	Applikationen/System
-Group(pl):	Aplikacje/System
 Source0:	%{name}.tar.gz
 #BuildRequires:	bzip2-devel
 #BuildRequires:	conflib-devel
@@ -32,8 +30,6 @@ pakietów RPM.
 %package BOOT
 Summary:	prowizorka for bootdisk
 Group:		Applications/System
-Group(de):	Applikationen/System
-Group(pl):	Aplikacje/System
 
 %description BOOT
 
