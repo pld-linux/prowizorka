@@ -46,8 +46,8 @@ Group(pl):	Aplikacje/System
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_libdir}/bootdisk/sbin
-install rpmmenlib/%{name} $RPM_BUILD_ROOT%{_libdir}/bootdisk/sbin
-install gentocf/gentocf $RPM_BUILD_ROOT%{_libdir}/bootdisk/sbin
+install -s rpmmenlib/%{name} $RPM_BUILD_ROOT%{_libdir}/bootdisk/sbin
+install -s gentocf/gentocf $RPM_BUILD_ROOT%{_libdir}/bootdisk/sbin
 
 %clean
 rm -rf $RPM_BUILD_ROOT
