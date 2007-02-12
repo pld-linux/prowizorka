@@ -1,5 +1,5 @@
 Summary:	RPM handler
-Summary(pl):	narzêdzie do obs³ugi RPMów
+Summary(pl.UTF-8):   narzÄ™dzie do obsÅ‚ugi RPMÃ³w
 Name:		prowizorka
 Version:	0.1
 Release:	1
@@ -21,19 +21,19 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 prowizorka is a tool to allow easy installation of RPM packages.
 
-%description -l pl
-prowizorka jest narzêdziem które pozwala na ³atw± instalacjê pakietów
+%description -l pl.UTF-8
+prowizorka jest narzÄ™dziem ktÃ³re pozwala na Å‚atwÄ… instalacjÄ™ pakietÃ³w
 RPM.
 
 %package BOOT
 Summary:	prowizorka for bootdisk
-Summary(pl):	prowizorka dla dysku startowego
+Summary(pl.UTF-8):   prowizorka dla dysku startowego
 Group:		Applications/System
 
 %description BOOT
 prowizorka version for bootdisk.
 
-%description BOOT -l pl
+%description BOOT -l pl.UTF-8
 Wersja prowizorki przeznaczona dla dysku startowego.
 
 %prep
