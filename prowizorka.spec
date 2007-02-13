@@ -1,5 +1,5 @@
 Summary:	RPM handler
-Summary(pl.UTF-8):   narzędzie do obsługi RPMów
+Summary(pl.UTF-8):	narzędzie do obsługi RPMów
 Name:		prowizorka
 Version:	0.1
 Release:	1
@@ -27,7 +27,7 @@ RPM.
 
 %package BOOT
 Summary:	prowizorka for bootdisk
-Summary(pl.UTF-8):   prowizorka dla dysku startowego
+Summary(pl.UTF-8):	prowizorka dla dysku startowego
 Group:		Applications/System
 
 %description BOOT
